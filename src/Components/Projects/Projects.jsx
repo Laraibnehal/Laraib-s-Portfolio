@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import bannerImg from "../../assets/serene.png";
-import bannerImg2 from "../../assets/climato.png"
+import bannerImg2 from "../../assets/Climato.png"
 import bannerImg3 from "../../assets/nicco.png"
 const Projects = () => {
   return (
