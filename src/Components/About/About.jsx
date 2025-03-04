@@ -13,7 +13,7 @@ const About = () => {
           <img className="md:h-80" src={devBackPic} alt="About img" />
 
           <ul>
-            <div className="flex gap-3 py-4 px-14">
+            <div className="flex md:gap-3 gap-2 py-2 md:py-4 px-4 md:px-14">
               <IoArrowForward size={30} className="mt-1" />
 
               <span className="w-96">
@@ -25,7 +25,7 @@ const About = () => {
                 </p>
               </span>
             </div>
-            <div className="flex gap-3 py-4 px-14">
+            <div className="flex md:gap-3 gap-2 py-2 md:py-4 px-4 md:px-14">
               <IoArrowForward size={30} className="mt-1" />
 
               <span className="w-96">
@@ -37,7 +37,7 @@ const About = () => {
                 </p>
               </span>
             </div>
-            <div className="flex gap-3 py-4 px-14">
+            <div className="flex md:gap-3 gap-2 py-2 md:py-4 px-4 md:px-14">
               <IoArrowForward size={30} className="mt-1" />
 
               <span className="w-96">

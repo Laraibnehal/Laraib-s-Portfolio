@@ -7,11 +7,11 @@ const Footer = () => {
   return (
     <div
       id="Footer"
-      className="flex justify-around bg-[#badbf7] text-black p-10 md:p-12 items-center"
+      className="md:flex-row flex flex-col justify-around bg-[#badbf7] text-black p-10 md:p-12 items-center"
       
     >
-      <div>
-        <h1 className="text-2xl md:text-6xl font-bold">Contact Me</h1>
+      <div className="p-3 mb-10 md:mb-0">
+        <h1 className="text-2xl md:text-6xl  font-bold ">Contact Me</h1>
         <h3 className="text-sm md:text-2xl font-normal">
           Feel Free To reach out!
         </h3>
