@@ -6,7 +6,7 @@ import { SiMongodb } from "react-icons/si";
 import { RiNetflixFill } from "react-icons/ri";
 import { FaAmazon } from "react-icons/fa";
 import bridge from "../../assets/Bridge.jpg"
-import serene from "../../assets/serene-logo.png"
+import serene from "../../assets/serene.png"
 const Experience = () => {
   return (
     <div id="Experience" className="p-10 md:p-24">
@@ -75,7 +75,7 @@ const Experience = () => {
           </div>
           <div className="flex gap-10 bg-[#f9f9f9] bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
             {/* <FaAmazon color="#FF9900" size={50} /> */}
-            <img className=" w-20 h-20" src={serene} alt="" />
+            <img className=" w-10 md:w-20 h-10 md:h-20" src={serene} alt="" />
             <span className="text-black">
               <h2 className="leading-tight">Founder & CEO, Serene</h2>
               <p className="text-sm leading-tight font-thin">
